@@ -28,20 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnAceptar
+            // 
+            this.btnAceptar.Location = new System.Drawing.Point(227, 153);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(107, 55);
+            this.btnAceptar.TabIndex = 0;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAceptar);
             this.Name = "Form1";
-            this.Text = "Formulario de Ejemplo";
+            this.Text = "Formulario de ejemplo MODIFICADO";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnAceptar;
     }
 }
 
