@@ -30,6 +30,7 @@
         {
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.lblNuevo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAceptar
@@ -50,16 +51,28 @@
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             // 
+            // lblNuevo
+            // 
+            this.lblNuevo.AutoSize = true;
+            this.lblNuevo.Location = new System.Drawing.Point(368, 58);
+            this.lblNuevo.Name = "lblNuevo";
+            this.lblNuevo.Size = new System.Drawing.Size(55, 16);
+            this.lblNuevo.TabIndex = 2;
+            this.lblNuevo.Text = "etiqueta";
+            this.lblNuevo.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblNuevo);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnAceptar);
             this.Name = "Form1";
             this.Text = "Formulario de ejemplo MODIFICADO";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -67,6 +80,7 @@
 
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Label lblNuevo;
     }
 }
 
