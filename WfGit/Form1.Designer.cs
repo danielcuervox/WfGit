@@ -57,9 +57,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(158, 324);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 16);
+            this.label1.Size = new System.Drawing.Size(225, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "ETIQUETA PEPE Y JOSE";
+            this.label1.Text = "ETIQUETA PEPE Y jose confirmado";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnOtro
@@ -82,7 +82,7 @@
             this.Controls.Add(this.lblEtiqueta);
             this.Controls.Add(this.btnAceptar);
             this.Name = "Form1";
-            this.Text = "Formulario de ejemplo MODIFICADO";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
