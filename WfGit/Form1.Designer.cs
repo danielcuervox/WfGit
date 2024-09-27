@@ -57,9 +57,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(158, 324);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 16);
+            this.label1.Size = new System.Drawing.Size(161, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "ETIQUETA PEPE Y JOSE";
+            this.label1.Text = "ETIQUETA PEPE y nadie";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnOtro
