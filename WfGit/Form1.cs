@@ -26,5 +26,10 @@ namespace WfGit
         {
 
         }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hola!");
+        }
     }
 }
